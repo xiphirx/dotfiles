@@ -3,8 +3,9 @@ URxvt.perl-lib: ~/dotfiles/urxvt-ext/
 URxvt.perl-ext-common: matcher,tabbedex,clipboard
 
 ! Keys
-URxvt.keysym.C-c: perl:clipboard:copy
-URxvt.keysym.C-v: perl:clipboard:paste
+URxvt.keysym.Control-c: perl:clipboard:copy
+URxvt.keysym.Control-v: perl:clipboard:paste
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
 
 ! Config
 URxvt*scrollTtyOutput: false
