@@ -1,0 +1,50 @@
+! Ext
+URxvt.perl-lib: ~/dotfiles/urxvt-ext/
+URxvt.perl-ext-common: default,matcher,tabbedex,clipboard
+
+! Keys
+URxvt.keysym.C-c: perl:clipboard:copy
+URxvt.keysym.C-v: perl:clipboard:paste
+
+! Config
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.scrollBar: false
+URxvt*saveLines: 65535
+URxvt*iso14755: false
+URxvt.clipboard.autocopy: true
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 2
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+URxvt*depth: 32
+URxvt*borderless: 1
+
+! Font
+URxvt*font: xft:Sauce Code Powerline-10:hinting=true;antialias:true
+URxvt.letterSpace: -1
+
+! Colors
+URxvt.background:  #2B2B2B
+URxvt.foreground:  #a9b7c6
+URxvt.color0:      #2B2B2B
+URxvt.color1:      #cc7832
+URxvt.color2:      #629755
+URxvt.color3:      #fec66c
+URxvt.color4:      #5859b7
+URxvt.color5:      #9876aa
+URxvt.color6:      #259185
+URxvt.color7:      #a9b7c6
+URxvt.color8:      #4d4d4d
+URxvt.color9:      #de7620
+URxvt.color10:     #59a547
+URxvt.color11:     #fec64c
+URxvt.color12:     #4041cf
+URxvt.color13:     #9e64bc
+URxvt.color14:     #179f90
+URxvt.color15:     #ced6de
+

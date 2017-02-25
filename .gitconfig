@@ -1,0 +1,11 @@
+[user]
+	name = Hilal Alsibai
+	email = xiphirx@nope
+[rerere]
+	enabled = true
+[alias]
+	amend = commit --amend
+	ll = log --pretty=oneline --abbrev-commit
+[core]
+	autocrlf = false
+	fileMode = false
