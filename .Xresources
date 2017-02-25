@@ -1,6 +1,6 @@
 ! Ext
 URxvt.perl-lib: ~/dotfiles/urxvt-ext/
-URxvt.perl-ext-common: default,matcher,tabbedex,clipboard
+URxvt.perl-ext-common: matcher,tabbedex,clipboard
 
 ! Keys
 URxvt.keysym.C-c: perl:clipboard:copy
@@ -14,10 +14,6 @@ URxvt.scrollBar: false
 URxvt*saveLines: 65535
 URxvt*iso14755: false
 URxvt.clipboard.autocopy: true
-URxvt.tabbed.tabbar-fg: 2
-URxvt.tabbed.tabbar-bg: 0
-URxvt.tabbed.tab-fg: 0
-URxvt.tabbed.tab-bg: 2
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
