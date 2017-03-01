@@ -1,0 +1,1 @@
+alias adb-refresh-mediastore='adb -e shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard/DCIM/'
